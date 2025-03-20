@@ -2,10 +2,7 @@ name: Cross-compile for Windows
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
+    branches: [ dev ]
 jobs:
   build:
     name: Build for Windows
